@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-export default function Home() {
+export default function Test() {
   return (
     <div>
-      <h1 id="title">/ #title</h1>
+      <h1 id="title">test page title</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur veritatis nemo reiciendis earum facere, rem consequatur aliquam velit? Quisquam, aut harum iste beatae quo veritatis reiciendis molestiae veniam deleniti.
       </p>
@@ -16,6 +16,7 @@ export default function Home() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur veritatis nemo reiciendis earum facere, rem consequatur aliquam velit? Quisquam, aut harum iste beatae quo veritatis reiciendis molestiae veniam deleniti.
       </p>
+      <h3 id="place">hello there</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur veritatis nemo reiciendis earum facere, rem consequatur aliquam velit? Quisquam, aut harum iste beatae quo veritatis reiciendis molestiae veniam deleniti.
       </p>
@@ -30,9 +31,9 @@ export default function Home() {
       </p>
       <Link href="#title">link to #title</Link>
       <br />
-      <Link href="/test/#title">link to /test/#title</Link>
+      <Link href="/#title">link to /#title</Link>
       <br />
-      <Link href="/test/#place">link to /test/#place</Link>
+      <Link href="#place">link to #place</Link>
     </div>
   )
 }
